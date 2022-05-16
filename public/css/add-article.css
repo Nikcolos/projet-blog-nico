@@ -1,0 +1,50 @@
+.form-container{
+    display: flex;
+    flex-flow: column;
+    width: 50rem;
+}
+
+.form-container h1{
+    margin-bottom: 2rem;
+}
+
+.form-control{
+    display: flex;
+    flex-flow: column;
+    margin: 1rem 0;
+}
+
+.form-control label{
+    margin-bottom: 1rem;
+}
+
+.form-control input{
+        border-color: #bdc3c7;
+        border-style: solid;
+        border-radius:3px;
+        padding: 10px 15px;
+        background-color: var(--backgroung-light);
+}
+
+.form-control select{
+    border-color: #bdc3c7;
+    border-style: solid;
+    border-radius:3px;
+    padding: 10px 15px;
+    background-color: var(--backgroung-light);
+}
+
+.form-control textarea{
+    border-color: #bdc3c7;
+    border-style: solid;
+    border-radius:3px;
+    padding: 10px 15px;
+    background-color: var(--backgroung-light);
+    min-height: 300px;
+}
+
+.form-actions{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+}

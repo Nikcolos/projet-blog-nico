@@ -1,0 +1,36 @@
+.content{
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.info-container ul li{
+    display: flex;
+  }
+
+.info-container ul li strong{
+  margin-right: 5px;  
+}
+
+.articles-list{
+    width: 100%;
+}
+
+.articles-list ul li{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border:var(--border);
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:800px){
+  .articles-list ul li{
+    flex-flow: column;
+  }
+
+  .form-actions{
+    margin-top: 1rem;
+  }
+}
